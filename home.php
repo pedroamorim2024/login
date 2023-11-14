@@ -12,10 +12,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
         <title></title>
     </head>
     <body>
-<<<<<<< HEAD
+
         <p><a href="servicos/sair."
-         
-=======
+
         <p><a href="servicos/sair.php">sair</a>  </p>
         <p>seja bem vindo
             <?php
