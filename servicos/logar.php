@@ -1,18 +1,15 @@
 <?php
 
-/* 
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHP.php to edit this template
- */
+
 include './conexao.php';
 
-<<<<<<< HEAD
+
+
  $login = $_POST['login'];
  $senha = $_POST['senha'];
-=======
+             
 $login = $_POST['login'];
 $senha = $_POST['senha'];
->>>>>>> 6ccadcca45346fd427f029ce9d3e419d716a42c9
 
 
 $consulta = "select * from usuarios where loginUsuario='$login' and senhaUsuario='$senha'";
