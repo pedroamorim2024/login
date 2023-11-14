@@ -6,14 +6,19 @@
  */
 include './conexao.php';
 
+<<<<<<< HEAD
  $login = $_POST['login'];
  $senha = $_POST['senha'];
+=======
+$login = $_POST['login'];
+$senha = $_POST['senha'];
+>>>>>>> 6ccadcca45346fd427f029ce9d3e419d716a42c9
 
 
 $consulta = "select * from usuarios where loginUsuario='$login' and senhaUsuario='$senha'";
 
 $resultado = mysqli_query($con, $consulta);
- echo $contagem = mysqli_num_rows($resultado);
+ $contagem = mysqli_num_rows($resultado);
  
  
  
@@ -28,7 +33,8 @@ $resultado = mysqli_query($con, $consulta);
      
  }else{
      echo 'Login ou senha inválido!';
-     echo 'Click <a href="../cadastro.php">aqui</a> para logar';
+     echo 'Click <a href="../cadastro.php">aqui</a> para criar a sua conta';
+     echo '<br >Ou click <a href="../index.php">aqui</a> para refazer o seu login';
  }
 
 

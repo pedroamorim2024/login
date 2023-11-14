@@ -12,4 +12,7 @@ $resultado = mysqli_query($con, $consulta);
  }
  //teste maquina do professor.
  
+<<<<<<< HEAD
  
+=======
+>>>>>>> 6ccadcca45346fd427f029ce9d3e419d716a42c9
